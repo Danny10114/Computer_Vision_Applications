@@ -1,0 +1,6 @@
+專案名稱：computer vision application
+專案說明：
+Focus_Stacking:透過高通濾波製作前、後景影像遮罩，再進行結合，將原本前景清晰影像及後景清晰影像製成景深擴增影像。
+Projection:透過Camera Parameter將棒球軌跡的3維座標透過計算成2維座標，最後將棒球運動軌跡投影至2維影像上。
+Swap_Img:取得各圖畫的4個對應座標點後，透過OpenCV計算3x3的Homography matrix，進而將兩張圖畫中的像素點進行交換，產生新的假影像。
+
